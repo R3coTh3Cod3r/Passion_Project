@@ -5,11 +5,11 @@ pygame.init()
 displaySurface = pygame.display.set_mode((500,480))
 pygame.display.set_caption('My Game')
 # animation for walking (INCLUDE ANIMATION SPRITES)
-# walkRight =
-# walkLeft =
+walkRight = [pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R1.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R2.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R3.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R4.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R5.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R6.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R7.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R8.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/R9.png')]
+walkLeft = [pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L1.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L2.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L3.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L4.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L5.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L6.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L7.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L8.png'), pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/L9.png')]
 
 backGround = pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passionate_Project/screen.png')
-# Character = pygame.image.load()
+Character = pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/standing.png')
 
 clock = pygame.time.Clock()
 
@@ -28,9 +28,9 @@ walkCount = 0
 
 def rePlayWindow():
     global walkCount
-    displaySurface.blit(bg, (0,0))
+    displaySurface.blit(backGround, (0,0))
 
-    if walkCount + 1 >= 27:
+    if walkCount + 1 >= 20:
         walkCount = 0
 
     if left:
