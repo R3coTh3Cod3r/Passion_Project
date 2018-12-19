@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f9ae5c-f2d9-444f-983a-4a26811abe73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/L9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyton_Game_files/images/R9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pyton_Game_files/function_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/function_Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pyton_Game_files/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/sample.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Passion_Project$settingGame.coverage" NAME="settingGame Coverage Results" MODIFIED="1544838055067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Passion_Project$function_Game.coverage" NAME="function_Game Coverage Results" MODIFIED="1544842130838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/Passion_Project$sample.coverage" NAME="sample Coverage Results" MODIFIED="1545247799718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/Passion_Project$sample.coverage" NAME="sample Coverage Results" MODIFIED="1545258197947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -40,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/Pyton_Game_files/sample.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="43" />
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -48,10 +30,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pyton_Game_files/function_Game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="35" column="46" selection-end-line="126" selection-end-column="19" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#358#371#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +60,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="800" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="800" />
     <option name="height" value="824" />
@@ -107,6 +88,13 @@
               <item name="Passion_Project" type="462c0819:PsiDirectoryNode" />
               <item name="Pyton_Game_files" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Passion_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Passion_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Pyton_Game_files" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pixelart-alucard-opengameart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,15 +248,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="25" width="800" height="824" extended-state="4" />
+    <frame x="0" y="25" width="1600" height="824" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453581" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2453581" />
+      <window_info id="Structure" order="1" side_tool="true" visible="true" weight="0.24967825" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32805756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32805756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,16 +293,6 @@
     <entry file="file://$PROJECT_DIR$/Pyton_Game_files/images/screen.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pyton_Game_files/function_Game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="46" selection-end-line="126" selection-end-column="19" />
-          <folding>
-            <element signature="e#358#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pyton_Game_files/settingGame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -327,10 +306,20 @@
     <entry file="file://$PROJECT_DIR$/Pyton_Game_files/images/R1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pyton_Game_files/function_Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pyton_Game_files/sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="43" />
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
         </state>
       </provider>
     </entry>
