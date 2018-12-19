@@ -1,32 +1,91 @@
-import pygame,sys
-from pygame.locals import *
-
-
+import pygame
 pygame.init()
-display_width = 800
-display_height = 600
 
-DisplaySurface = pygame.display.set_mode((display_width,display_height))
-screenImgage = pygame.image.load("/home/student/CodeSchool/IdeaProjects/Passion_Project/Pyton_Game_files/images/screen.png").convert()
 
-x = 20;
-y= 30;
-DisplaySurface.blit(screenImgage,(x,y))
-pygame.display.flip()
+displaySurface = pygame.display.set_mode((500,480))
+pygame.display.set_caption('My Game')
+# animation for walking (INCLUDE ANIMATION SPRITES)
+# walkRight =
+# walkLeft =
 
-pygame.display.set_caption("My Game Now!")
-running = True
-while(running):
+backGround = pygame.image.load('/home/student/CodeSchool/IdeaProjects/Passionate_Project/screen.png')
+# Character = pygame.image.load()
+
+clock = pygame.time.Clock()
+
+
+x = 50
+y = 400
+width = 64
+height = 64
+vel = 5
+isJump = False
+jumpCount = 10
+left = False
+right = False
+walkCount = 0
+
+
+def rePlayWindow():
+    global walkCount
+    displaySurface.blit(bg, (0,0))
+
+    if walkCount + 1 >= 27:
+        walkCount = 0
+
+    if left:
+        displaySurface.blit(walkLeft[walkCount//3], (x,y))
+        walkCount += 1
+    elif right:
+        displaySurface.blit(walkRight[walkCount//3], (x,y))
+        walkCount +=1
+    else:
+        displaySurface.blit(Character, (x,y))
+
+    pygame.display.update()
+
+
+#mainloop
+run = True
+while run:
+    clock.tick(27)
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
-#
-# while True:
-#     for event in pygame.event.get():
-#         if event.type == QUIT:
-#             pygame.quit()
-#             sys.exit()
-#     pygame.display.update()
-#
+            run = False
+
+    keys = pygame.key.get_pressed()
+
+    if keys[pygame.K_LEFT] and x > vel:
+        x -= vel
+        left = True
+        right = False
+    elif keys[pygame.K_RIGHT] and x < 500 - width - vel:
+        x += vel
+        right = True
+        left = False
+    else:
+        right = False
+        left = False
+        walkCount = 0
+
+    if not(isJump):
+        if keys[pygame.K_SPACE]:
+            isJump = True
+            right = False
+            left = False
+            walkCount = 0
+    else:
+        if jumpCount >= -10:
+            neg = 1
+            if jumpCount < 0:
+                neg = -1
+            y -= (jumpCount ** 2) * 0.5 * neg
+            jumpCount -= 1
+        else:
+            isJump = False
+            jumpCount = 10
+
+    rePlayWindow()
 
 pygame.quit()

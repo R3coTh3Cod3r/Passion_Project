@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16f9ae5c-f2d9-444f-983a-4a26811abe73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/function_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/function_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tileset-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/images/tileset-screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tileset.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/images/tileset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tileset.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/images/tileset.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixelbackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/images/pixelbackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/images/screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settingGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyton_Game_files/settingGame.py" afterDir="false" />
-    </list>
+    <list default="true" id="16f9ae5c-f2d9-444f-983a-4a26811abe73" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pyton_Game_files/sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="9" column="122" selection-start-line="9" selection-start-column="122" selection-end-line="9" selection-end-column="122" />
+            <state relative-caret-position="190">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -39,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pyton_Game_files/function_Game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="390">
+              <caret line="35" column="46" lean-forward="true" selection-end-line="126" selection-end-column="19" />
               <folding>
                 <element signature="e#358#371#0" expanded="true" />
               </folding>
@@ -52,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Pyton_Game_files/settingGame.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <caret line="26" column="11" lean-forward="true" selection-end-line="39" selection-end-column="15" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -260,11 +251,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="813" y="25" width="787" height="824" extended-state="4" />
+    <frame x="718" y="27" width="786" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -273,7 +265,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33044732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pyton_Game_files/sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="122" selection-start-line="9" selection-start-column="122" selection-end-line="9" selection-end-column="122" />
+        <state relative-caret-position="190">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -317,7 +309,7 @@
     <entry file="file://$PROJECT_DIR$/Pyton_Game_files/settingGame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <caret line="26" column="11" lean-forward="true" selection-end-line="39" selection-end-column="15" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -326,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pyton_Game_files/function_Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="390">
+          <caret line="35" column="46" lean-forward="true" selection-end-line="126" selection-end-column="19" />
           <folding>
             <element signature="e#358#371#0" expanded="true" />
           </folding>
